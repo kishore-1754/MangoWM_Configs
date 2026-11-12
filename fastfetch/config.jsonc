@@ -1,0 +1,109 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "~/.config/fastfetch/umbreon.png",
+    "width": 25,
+    "height": 20,
+    "padding": {
+      "top": 3,
+      "left": 2,
+      "right": 4
+    },
+    "color": {
+      "1": "#63caff",
+      "2": "#63c9e6"
+    }
+  },
+  "display": {
+    "constants": [
+      "──────────"
+    ],
+    "key": {
+      "width": 12
+    },
+    "color": {
+      "keys": "#9ccaff",
+      "title": "#b1c9e6"
+    },
+    "percent": {
+      "color": {
+        "green": "#f1afff",
+        "yellow": "#9ccaff",
+        "red": "#ffb4ab"
+      }
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┌{$1} 󰃉 System Info {$1}┐",
+      "outputColor": "#63caff"
+    },
+    "title",
+    {
+      "type": "os",
+      "key": "󰣥 OS"
+    },
+    {
+      "type": "kernel",
+      "key": "󰉏 Kernel"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖 Packages"
+    },
+    {
+      "type": "shell",
+      "key": "󰉯 Shell"
+    },
+    {
+      "type": "wm",
+      "key": "󰍓 WM"
+    },
+    {
+      "type": "cursor",
+      "key": "󰕔 Cursor"
+    },
+    {
+      "type": "terminal",
+      "key": "󰀻 Terminal"
+    },
+    {
+      "type": "custom",
+      "format": "└{$1}─────────────────────────┘",
+      "outputColor": "#63caff"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "┌{$1}──── 󰻠 Hardware ────{$1}┐",
+      "outputColor": "#63caff"
+    },
+    {
+      "type": "cpu",
+      "key": "󰻠 CPU"
+    },
+    {
+      "type": "gpu",
+      "key": "󰍛 GPU"
+    },
+    {
+      "type": "memory",
+      "key": "󰉼 Memory"
+    },
+    {
+      "type": "swap",
+      "key": "󰉼 Swap"
+    },
+    {
+      "type": "disk",
+      "key": "󰈙 Disk"
+    },
+    {
+      "type": "custom",
+      "format": "└{$1}──────────────────────────────┘",
+      "outputColor": "#63caff"
+    }
+  ]
+}

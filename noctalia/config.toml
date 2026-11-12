@@ -1,0 +1,46 @@
+[widget.clock]
+font_family = "Orbitron"
+font_weight = 800
+time_format = "{:%H:%M }"   
+
+[widget.workspaces]
+font_family = "Orbitron"
+font_weight = 800  
+
+[widget.wifi]
+font_scale = 0.75
+font_family = "Orbitron"
+font_weight = 800  
+
+
+[widget.volume]
+font_scale = 0.75
+font_family = "Orbitron"
+font_weight = 800  
+
+[widget.battery]
+font_scale = 0.75
+font_family = "Orbitron"
+font_weight = 800  
+
+[widget.brightness]
+font_family = "Orbitron"
+font_weight = 800  
+font_scale = 0.75
+
+[osd.kinds]
+volume = false
+brightness = false  
+
+[shell.screenshot]
+directory = "~/Pictures/Screenshots"  
+
+[audio]
+enable_screenshot_sounds = false
+
+[wallpaper]
+directory = "~/Pictures/Wallpapers"
+
+[theme]
+source           = "wallpaper"
+wallpaper_scheme = "m3-content"   
